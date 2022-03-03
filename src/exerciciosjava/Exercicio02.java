@@ -5,6 +5,8 @@
  */
 package exerciciosjava;
 
+import java.util.Scanner;
+
 /**
  *
  * @author User
@@ -22,7 +24,18 @@ public class Exercicio02 {
         fonte: https://www.cursoemvideo.com/wp-content/uploads/2020/10/Exerci%CC%81cios-de-Algoritmos-1-100.pdf
         */
         
+        // =========== RESPOSTA ===========
         
+        // Criando " LEIA " no java para armazenar dado informado pelo usuário
+        Scanner teclado = new Scanner(System.in); // não esquecer de adicionar a biblioteca Java.util.Scanner
+        
+        System.out.println("INFORME O NOME DO FUNCIONÁRIO(A)");// solicitando que o usuario informe o seu nome
+        String nome = teclado.nextLine(); // armazenando o dado informado pelo usuario na variável nome
+        
+        System.out.println("INFORME O SALÁRIO DO FUNCIONÁRIO(A)");// solicitando que o usuario informe o salário
+        float salario = teclado.nextFloat(); // armazenando o dado informado pelo usuario na variável salario
+        
+        System.out.println("O FUNCIONÁRIO " + nome + " TEM UM SALÁRIO DE " + salario); // concatenando texto com variáveis 
     }
             
 }
