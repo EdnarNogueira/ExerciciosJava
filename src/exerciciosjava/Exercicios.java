@@ -13,7 +13,9 @@ import java.util.Scanner;
  */
 public class Exercicios {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in); // FUNÇÃO QUE RECEBE DADOS DE ENTRADA VIA TECLADO (LEIA)
+        
+        System.out.println(" Olá Mundo"); // FUNÇÃO DE SAIDA DE DADOS NA TELA (ESCREVA)
     }
     
 }
