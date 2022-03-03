@@ -5,17 +5,15 @@
  */
 package exerciciosjava;
 
+import java.util.Scanner;
+
 /**
  *
  * @author User
  */
-public class ExerciciosJava {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Exercicios {
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner teclado = new Scanner(System.in);
     }
     
 }
