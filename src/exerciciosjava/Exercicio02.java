@@ -18,6 +18,8 @@ public class Exercicio02 {
          Nome do Funcionário: Maria do Carmo
          Salário: 1850,45
          O funcionário Maria do Carmo tem um salário de R$1850,45 em Junho.
+        
+        fonte: https://www.cursoemvideo.com/wp-content/uploads/2020/10/Exerci%CC%81cios-de-Algoritmos-1-100.pdf
         */
         
         
