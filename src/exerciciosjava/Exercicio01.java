@@ -5,6 +5,8 @@
  */
 package exerciciosjava;
 
+import java.util.Scanner;
+
 /**
  *
  * @author User
@@ -18,6 +20,12 @@ public class Exercicio01 {
          Qual é o seu nome? João da Silva
          Olá João da Silva, é um prazer te conhecer!     
         */
+       Scanner teclado = new Scanner(System.in);
+       
+        System.out.println("Qual é o seu Nome :");
+        String nome = teclado.nextLine();
+        
+        System.out.println("Olá " + nome + ", é um pazer te conhecer");
         
         
     }
