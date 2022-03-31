@@ -5,6 +5,7 @@
  */
 package exerciciosjava;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -17,18 +18,30 @@ public class Exercicio04 {
         // Coletando dados do usuário
          /*
         CRIE UM VETOR PARA ARMAZENAR 4 NOTAS DE 4 ALUNOS E
-        CALCULE A MEDIA DAS NOTAS
+        CALCULE A MEDIA DAS NOTAS 
         */
        
+         Scanner teclado = new Scanner(System.in);
+         int i, j ,k;
+         float notas[] = new float[4];
+         String alunos[] = new String[4];
+         
+         for(i = 0; i <= alunos.length -1; i++){
+             System.out.println("INFORME OS NOMES DOS ALUNOS");
+             alunos[i] = teclado.nextLine();
+             System.out.println("INFORME AS NOTAS DOS ALUNOS");
+             notas[i] = teclado.nextInt();
+          }
+         
+         
+          for(String valor : alunos){
+             System.out.print(valor);
+         }
+         
+         
+         
+         
         }
        }
        
          
-       
-         
-         
-}
-
-}
-    
-   
